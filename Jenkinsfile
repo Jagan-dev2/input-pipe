@@ -10,7 +10,7 @@ pipeline{
         input message: "Should we continue",ok : "Yes",submitter: "Mohan"    
               
          }       
-           echo "Input success for ${PERSON}"
+           echo "Input success for ${params.PERSON}"
            }
         }
     }
